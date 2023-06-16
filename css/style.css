@@ -1,0 +1,364 @@
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/metropolis.medium.otf"); }
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/metropolis.bold.otf"); }
+.container {
+  margin: 0 auto;
+  max-width: 1480px;
+  padding: 0px 20px; }
+
+.title {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 24px;
+  color: #160637; }
+
+.description {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8989a2; }
+
+.tag {
+  flex: 0 0 auto;
+  width: auto;
+  background: #f7f1ff;
+  border-radius: 20px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px; }
+  .tag .tag-txt {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #722ed1; }
+    .tag .tag-txt a {
+      margin-left: 5px;
+      text-decoration: underline;
+      color: #722ed1; }
+
+.hero {
+  height: 696px;
+  background-image: url(/assets/images/hero/BG.svg); }
+  .hero .header__body {
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 19px; }
+    .hero .header__body .header__use {
+      display: flex;
+      align-items: center;
+      gap: 40px; }
+      .hero .header__body .header__use .header__links {
+        display: flex;
+        gap: 40px; }
+        .hero .header__body .header__use .header__links .header-link a {
+          font-family: "Metropolis";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 14px;
+          color: #000000; }
+      .hero .header__body .header__use .header__button {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        background: #ffffff;
+        border: 1px solid #722ed1;
+        border-radius: 23px;
+        color: #722ed1;
+        cursor: pointer;
+        padding: 12px 24px; }
+  .hero .content__body {
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 95px;
+    align-items: center;
+    gap: 16px; }
+    .hero .content__body .content__image {
+      min-width: 472px;
+      min-height: 370px; }
+    .hero .content__body .content__use {
+      width: 472px;
+      display: flex;
+      flex-direction: column; }
+      .hero .content__body .content__use .tag {
+        width: 258px; }
+      .hero .content__body .content__use .content-title {
+        margin-top: 24px;
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: #000000;
+        width: 450px; }
+      .hero .content__body .content__use .content__buttons {
+        margin-top: 24px;
+        display: flex;
+        gap: 16px; }
+        .hero .content__body .content__use .content__buttons .content-button {
+          background: #722ed1;
+          border-radius: 23px;
+          padding: 12px 24px;
+          font-family: "Metropolis";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 14px;
+          color: #ffffff; }
+        .hero .content__body .content__use .content__buttons .button-learn {
+          background: #ffffff;
+          color: #722ed1; }
+
+.why__body {
+  padding-left: 240px;
+  padding-top: 112px;
+  padding-right: 240px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .why__body .description {
+    width: 672px;
+    text-align: center; }
+  .why__body .why__features {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px; }
+    .why__body .why__features .feature {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .why__body .why__features .feature .feature-title {
+        margin-top: 16px;
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #160637; }
+      .why__body .why__features .feature .feature-desc {
+        margin-top: 16px;
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #8989a2; }
+
+.product__body {
+  margin-top: 120px;
+  padding-left: 224px;
+  padding-right: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 88px; }
+  .product__body .product-image {
+    min-height: 435px;
+    min-width: 412px; }
+  .product__body .product__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start; }
+
+.engineering__body {
+  margin-top: 120px;
+  padding-left: 240px;
+  padding-right: 28px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between; }
+  .engineering__body .engineering-image {
+    min-width: 684px; }
+  .engineering__body .engineering__content {
+    display: flex;
+    flex-direction: column; }
+    .engineering__body .engineering__content .description {
+      width: 509px; }
+    .engineering__body .engineering__content .tag {
+      width: 258px; }
+
+.testimonial {
+  position: relative;
+  overflow: hidden;
+  height: 730px;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .testimonial .testimonial__body {
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .testimonial .testimonial__body .testimonial__title {
+      font-family: "Metropolis";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      color: #160637; }
+    .testimonial .testimonial__body .testimonial__icon {
+      margin-top: 32px; }
+    .testimonial .testimonial__body .testimonial__desc {
+      margin-top: 32px;
+      font-family: "Metropolis";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      width: 143px;
+      color: #000000; }
+    .testimonial .testimonial__body .testimonial__line {
+      border: 1px solid #dec9fa;
+      margin-top: 32px;
+      width: 964px; }
+    .testimonial .testimonial__body .testimonial__clients {
+      display: flex;
+      justify-content: space-between;
+      gap: 91px;
+      margin-top: 32px;
+      align-items: center; }
+  .testimonial .bg {
+    background-image: url(/assets/images/testimonial/bg.svg);
+    background-repeat: no-repeat;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+
+.signup__body {
+  margin-top: 120px;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .signup__body .signup__txt {
+    max-width: 424px; }
+    .signup__body .signup__txt .signup__trusted {
+      margin-top: 35px;
+      font-family: "Metropolis";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #8989a2;
+      text-align: center; }
+    .signup__body .signup__txt .signup__icons {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 100px; }
+  .signup__body .signup__form {
+    position: relative; }
+    .signup__body .signup__form .bg {
+      background: #f9f0ff;
+      width: 480px;
+      height: 480px;
+      top: 42px;
+      z-index: -1;
+      left: -26px;
+      position: absolute; }
+    .signup__body .signup__form .form__frame {
+      width: 428px;
+      height: 494px;
+      padding: 32px 40px;
+      background: #ffffff;
+      box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.122);
+      border-radius: 8px; }
+      .signup__body .signup__form .form__frame .title {
+        margin-top: 0;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center; }
+      .signup__body .signup__form .form__frame .form__button {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        background: #722ed1;
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        border-radius: 4px;
+        text-align: center;
+        color: #ffffff;
+        padding: 12px 99px; }
+      .signup__body .signup__form .form__frame .form__input {
+        margin-top: 16px;
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        padding: 16px;
+        width: 100%;
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        color: #160637; }
+      .signup__body .signup__form .form__frame .form__input::placeholder {
+        color: #8989a2; }
+      .signup__body .signup__form .form__frame .or {
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        color: #000000;
+        margin-top: 16px;
+        text-align: center; }
+      .signup__body .signup__form .form__frame .buttongoogle {
+        margin-top: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        .signup__body .signup__form .form__frame .buttongoogle img {
+          cursor: pointer; }
+      .signup__body .signup__form .form__frame .line {
+        opacity: 0.48;
+        border: 1px solid #8989a2;
+        width: 100%;
+        margin-top: 16px; }
+      .signup__body .signup__form .form__frame .have {
+        margin-top: 16px;
+        font-family: "Metropolis";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        color: #8989a2;
+        text-align: center; }
+        .signup__body .signup__form .form__frame .have a {
+          color: #722ed1; }
+
+/*# sourceMappingURL=style.css.map */
