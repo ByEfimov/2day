@@ -1,0 +1,102 @@
+@media (max-width: 1480px) {
+  .padding {
+    padding-left: 120px;
+    padding-right: 120px; } }
+@media (max-width: 1333px) {
+  .padding {
+    padding-left: 60px;
+    padding-right: 60px; }
+
+  .engineering__body {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; }
+    .engineering__body .engineering__content {
+      align-items: center; }
+      .engineering__body .engineering__content .description {
+        text-align: center; }
+
+  .testimonial {
+    margin-top: -34px; }
+    .testimonial .testimonial__body {
+      margin-top: 100px;
+      padding: 0; } }
+@media (max-width: 1024px) {
+  .padding {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .hero .content__body {
+    padding-top: 150px;
+    justify-content: center; }
+    .hero .content__body .content__use {
+      align-items: center; }
+      .hero .content__body .content__use .content-title {
+        text-align: center; }
+      .hero .content__body .content__use .description {
+        text-align: center; }
+    .hero .content__body .content__image {
+      display: none; }
+
+  .why__body .title {
+    font-size: 30px; }
+
+  .product__body {
+    gap: 50px; }
+    .product__body .product-image {
+      min-height: 275px;
+      display: flex;
+      align-items: center;
+      min-width: 275px; }
+
+  .testimonial {
+    margin-top: -140px; }
+    .testimonial .testimonial__body .testimonial__clients {
+      gap: 40px; }
+    .testimonial .testimonial__body .testimonial__line {
+      display: none; }
+
+  .signup__body {
+    justify-content: center; }
+    .signup__body .signup__txt {
+      display: none; } }
+@media (max-width: 768px) {
+  .hero .header__body .header__logo {
+    display: none; }
+  .hero .header__body .header__use {
+    width: 100%;
+    justify-content: space-between; }
+    .hero .header__body .header__use .header__links {
+      gap: 15px; }
+
+  .why__body .title {
+    text-align: center; }
+  .why__body .description {
+    width: 460px; }
+
+  .engineering__body .engineering__content .title {
+    font-size: 27px; }
+  .engineering__body .engineering__content .description {
+    width: 388px; }
+  .engineering__body .engineering-image {
+    display: none; }
+
+  .product__body {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .product__body .product__content {
+      align-items: center; }
+      .product__body .product__content .description {
+        text-align: center; }
+
+  .why__body .why__features {
+    margin-top: 30px; }
+    .why__body .why__features .dell {
+      display: none; }
+
+  .testimonial {
+    margin-top: -85px; }
+    .testimonial .testimonial__body .testimonial__clients {
+      display: none; } }
+
+/*# sourceMappingURL=adaptive.css.map */

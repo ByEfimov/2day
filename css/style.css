@@ -8,6 +8,10 @@
   font-style: normal;
   font-weight: 700;
   src: url("/assets/fonts/metropolis.bold.otf"); }
+.padding {
+  padding-left: 240px;
+  padding-right: 240px; }
+
 .container {
   margin: 0 auto;
   max-width: 1480px;
@@ -56,8 +60,6 @@
   height: 696px;
   background-image: url(/assets/images/hero/BG.svg); }
   .hero .header__body {
-    padding-left: 240px;
-    padding-right: 240px;
     display: flex;
     justify-content: space-between;
     padding-top: 19px; }
@@ -88,8 +90,6 @@
         cursor: pointer;
         padding: 12px 24px; }
   .hero .content__body {
-    padding-left: 240px;
-    padding-right: 240px;
     display: flex;
     justify-content: space-between;
     padding-top: 95px;
@@ -132,9 +132,7 @@
           color: #722ed1; }
 
 .why__body {
-  padding-left: 240px;
   padding-top: 112px;
-  padding-right: 240px;
   display: flex;
   align-items: center;
   flex-direction: column; }
@@ -172,7 +170,6 @@
 .product__body {
   margin-top: 120px;
   padding-left: 224px;
-  padding-right: 240px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,7 +184,6 @@
 
 .engineering__body {
   margin-top: 120px;
-  padding-left: 240px;
   padding-right: 28px;
   align-items: center;
   display: flex;
@@ -212,8 +208,6 @@
   justify-content: center;
   align-items: center; }
   .testimonial .testimonial__body {
-    padding-left: 240px;
-    padding-right: 240px;
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -257,8 +251,6 @@
 
 .signup__body {
   margin-top: 120px;
-  padding-left: 240px;
-  padding-right: 240px;
   padding-bottom: 120px;
   display: flex;
   justify-content: space-between;
